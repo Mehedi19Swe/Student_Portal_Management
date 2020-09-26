@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Admin information
+	</title>
+	<style>
+    input
+    {
+        width: 300px;
+        height: 33px;
+        margin-bottom: 1px solid #fff;
+    }
+</style>
+</head>
+<body>
+    <br>
+   <center>
+       <br>
+      <h2>Add admin information</h2>
+<hr>
+    <br>
+        <form action="addadmininfo.php" method="post">
+	<input type="text" name="name" placeholder="Enter the your name" required><br></br>
+    <input type="password" name="Password" placeholder="Enter your Password" required><br></br>
+    <input type="email" name="Email" placeholder="Enter your Email" required><br></br>
+    <select name="gender" style="width: 300px; height: 33px">
+        <option >Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="other">Other</option>
+    </select><br><br>
+    <select name="City" style="width: 300px; height: 33px">
+        <option>Select City</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Comilla">Comilla</option>
+        <option value="Chittagong">Chittagong</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Barisal">Barisal</option>
+    </select><br><br>
+    <input type="submit" value="submit" name="submit" style="background-color: green; color:white;font-size: 24px;border-radius: 24px;"><br><br>
+    </form>
+    <a href="Adminpanel.php">Go to home</a>
+<center>
+</body>
+</html>
